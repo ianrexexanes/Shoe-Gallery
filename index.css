@@ -1,0 +1,99 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FFFF;
+}
+
+p {
+    font-size: 25;
+    color: white;
+    text-decoration: underline;
+    height: 100px.;
+}
+
+P:hover {
+
+    color: yellow;
+}
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8f99e6, #8399eb, #7399f0, #698df6, #647ff9, #6670fb, #6c5ffb);
+}
+
+img {
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.shoes {
+    margin-top: 65px;
+    margin-left: 35px;
+    margin-right:35px;
+    
+    margin: 35 px;
+    border-radius: 20px;
+    transition-duration: .25s;
+    transition-delay: .15s;
+    transition-timing-function:linear;
+    cursor: pointer;
+
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.46);
+}
+
+.shoes:hover {
+    scale: 1.1;
+}
+
+main {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+
+    margin-top: 40px;
+    color: wheat;
+    font-style: oblique;
+}
+
+.button-container {
+    margin-top: 70px;
+}
+
+button {
+    background-color: red;
+    padding: 18px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 20%;
+    color: whitesmoke;
+
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.46);
+
+    transition-duration: .25s;
+    transition-delay: .15s;
+    transition-timing-function:linear;
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 1.2;
+}
+
